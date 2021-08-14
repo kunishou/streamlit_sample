@@ -69,6 +69,6 @@ st.write('数値は' + str(number) + 'です')
 st.write('')
 
 # ファイルアップロード
-st.markdown('## ファイルアップロード')
-st.write("st.file_uploader('ラベル', type='csv') ")
-st.file_uploader("ラベル", type='csv') 
+#st.markdown('## ファイルアップロード')
+#st.write("st.file_uploader('ラベル', type='csv') ")
+#st.file_uploader("ラベル", type='csv') 
