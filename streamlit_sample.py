@@ -6,6 +6,9 @@ image = Image.open('sample.png')
 st.image(image,use_column_width=True)
 st.write('')
 
+st.write('impoert streamlit as st')
+st.write('')
+
 # ボタン
 st.markdown('## ボタン')
 st.write("st.button('ラベル')")
