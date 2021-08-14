@@ -1,10 +1,10 @@
 import streamlit as st
 from PIL import Image
 
-st.title('Widget Sample')
-#image = Image.open('sample.png')
-#st.image(image,use_column_width=True)
-#st.write('')
+#st.title('Widget Sample')
+image = Image.open('sample.png')
+st.image(image,use_column_width=True)
+st.write('')
 
 # ボタン
 st.markdown('## ボタン')
@@ -69,6 +69,6 @@ st.write('数値は' + str(number) + 'です')
 st.write('')
 
 # ファイルアップロード
-#st.markdown('## ファイルアップロード')
-#st.write("st.file_uploader('ラベル', type='csv') ")
-#st.file_uploader("ラベル", type='csv') 
+st.markdown('## ファイルアップロード')
+st.write("st.file_uploader('ラベル', type='csv') ")
+st.file_uploader("ラベル", type='csv') 
