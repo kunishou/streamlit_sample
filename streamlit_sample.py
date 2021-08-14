@@ -6,7 +6,7 @@ image = Image.open('sample.png')
 st.image(image,use_column_width=True)
 st.write('')
 
-st.write('impoert streamlit as st')
+st.write('import streamlit as st')
 st.write('')
 
 # ボタン
